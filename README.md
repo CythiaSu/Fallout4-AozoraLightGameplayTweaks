@@ -32,10 +32,6 @@ All features can be adjusted at any time through MCM.
 - Address Library for F4SE Plugins
 - Mod Configuration Menu (MCM)
 
-GOE, Prisma UI Framework, LooksMenu, and DLC are not required.
-
-不需要 GOE、Prisma UI Framework、LooksMenu 或任何 DLC。
-
 ## Scope
 
 The effects are player-only, save-local, and controlled through MCM. No global GMST edits are used for the gameplay effects.
