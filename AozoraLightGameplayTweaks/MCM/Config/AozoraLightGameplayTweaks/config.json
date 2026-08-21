@@ -1,0 +1,104 @@
+{
+  "modName": "AozoraLightGameplayTweaks",
+  "displayName": "青空轻度娱乐调整",
+  "minMcmVersion": 2,
+  "pluginRequirements": [
+    "AozoraLightGameplayTweaks.esp"
+  ],
+  "content": [
+    {
+      "type": "section",
+      "text": "青空轻度娱乐调整"
+    },
+    {
+      "type": "text",
+      "text": "少量、快捷、玩家专属的轻度便利选项。"
+    }
+  ],
+  "pages": [
+    {
+      "pageDisplayName": "配置",
+      "content": [
+        {
+          "type": "section",
+          "text": "配置"
+        },
+        {
+          "type": "switcher",
+          "text": "非战斗状态 AP 不消耗",
+          "help": "非战斗状态下，玩家的 AP 消耗会被阻止；进入战斗后恢复原版 AP 消耗。",
+          "valueOptions": {
+            "sourceType": "GlobalValue",
+            "sourceForm": "AozoraLightGameplayTweaks.esp|802"
+          },
+          "action": {
+            "type": "CallFunction",
+            "form": "AozoraLightGameplayTweaks.esp|805",
+            "scriptName": "AozoraLGT_MainQuestScript",
+            "function": "MCM_ReapplySettings"
+          }
+        },
+        {
+          "type": "switcher",
+          "text": "水下呼吸",
+          "help": "给玩家添加水下呼吸 Ability，动力甲和非动力甲状态都生效。",
+          "valueOptions": {
+            "sourceType": "GlobalValue",
+            "sourceForm": "AozoraLightGameplayTweaks.esp|809"
+          },
+          "action": {
+            "type": "CallFunction",
+            "form": "AozoraLightGameplayTweaks.esp|805",
+            "scriptName": "AozoraLGT_MainQuestScript",
+            "function": "MCM_ReapplySettings"
+          }
+        },
+        {
+          "type": "switcher",
+          "text": "无跌落伤害",
+          "help": "给玩家添加原版无跌落伤害 Perk，关闭后移除。",
+          "valueOptions": {
+            "sourceType": "GlobalValue",
+            "sourceForm": "AozoraLightGameplayTweaks.esp|804"
+          },
+          "action": {
+            "type": "CallFunction",
+            "form": "AozoraLightGameplayTweaks.esp|805",
+            "scriptName": "AozoraLGT_MainQuestScript",
+            "function": "MCM_ReapplySettings"
+          }
+        },
+        {
+          "type": "switcher",
+          "text": "无限负重",
+          "help": "给玩家添加超大负重 Ability，关闭后移除。",
+          "valueOptions": {
+            "sourceType": "GlobalValue",
+            "sourceForm": "AozoraLightGameplayTweaks.esp|803"
+          },
+          "action": {
+            "type": "CallFunction",
+            "form": "AozoraLightGameplayTweaks.esp|805",
+            "scriptName": "AozoraLGT_MainQuestScript",
+            "function": "MCM_ReapplySettings"
+          }
+        },
+        {
+          "type": "section",
+          "text": "重置"
+        },
+        {
+          "type": "button",
+          "text": "恢复原版配置",
+          "help": "关闭本 MOD 的所有功能，并移除已经加给玩家的效果。",
+          "action": {
+            "type": "CallFunction",
+            "form": "AozoraLightGameplayTweaks.esp|805",
+            "scriptName": "AozoraLGT_MainQuestScript",
+            "function": "MCM_ResetSettings"
+          }
+        }
+      ]
+    }
+  ]
+}

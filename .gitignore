@@ -1,0 +1,26 @@
+# Local Codex and agent metadata
+/.agents/
+/.codex/
+
+# Native build output and IDE files
+**/build/
+**/.vs/
+**/.vscode/
+*.obj
+*.pdb
+*.ipdb
+*.ilk
+*.exp
+*.lib
+
+# Generated Papyrus/native binaries and release archives
+AozoraLightGameplayTweaks/F4SE/Plugins/*.dll
+AozoraLightGameplayTweaks/Scripts/*.pex
+AozoraLightGameplayTweaks/Scripts/*.log
+*.zip
+
+# Local distribution and retired release trees
+/dist/
+/release_v1.0.0/
+/release_v1.1.0/
+/packaging/

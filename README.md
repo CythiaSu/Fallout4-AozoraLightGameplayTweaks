@@ -59,4 +59,3 @@ Runtime compatibility depends on the Fallout 4 runtime, F4SE, Address Library, a
 Release archives and generated binaries are intentionally excluded from the source repository. The official v1.1.0 bilingual packages are prepared locally for manual release.
 
 发布压缩包和生成的二进制文件不会提交到源码仓库；v1.1.0 中英双语包已在本地准备好，可手动发布。
-
