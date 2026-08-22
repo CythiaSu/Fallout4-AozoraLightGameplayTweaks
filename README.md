@@ -3,6 +3,9 @@
 > Fallout 4 的玩家专属轻度便利调整，支持 MCM 配置，不修改全局游戏设置。  
 > Lightweight player-only Fallout 4 gameplay tweaks with MCM control and no global game-setting edits.
 
+**暂时不支持最新的 Fallout 4 AE 版本（1.11.240）。**
+**The latest Fallout 4 AE version (1.11.240) is not supported at this time.**
+
 [![Status](https://img.shields.io/badge/status-stable-2ea44f?style=for-the-badge)](RELEASE_NOTES_v1.1.0.md)
 [![Release](https://img.shields.io/badge/release-v1.1.0-0969da?style=for-the-badge)](RELEASE_NOTES_v1.1.0.md)
 [![Fallout 4](https://img.shields.io/badge/Fallout%204-1.10.163-4e73df?style=for-the-badge)](https://f4se.silverlock.org/)
